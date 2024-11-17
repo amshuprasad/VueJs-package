@@ -18,7 +18,8 @@
                                     </InputText>
                                 </div>
                                 <div class="col-12 w-full pb-3 justify-content-center text-center">
-                                    <Button label="Submit" icon="pi pi-check" @click="findSmallestValue()" />
+                                    <Button label="Submit" icon="pi pi-check" @click="findSmallestValue()"
+                                        :disabled="!inputValues.trim()" />
                                 </div>
                                 <div v-if="smallestValue !== null" class="p-field p-col-12">
                                     <p>Smallest Value: {{ smallestValue }}</p>
