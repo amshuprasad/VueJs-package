@@ -36,6 +36,7 @@ npm create vue@latest
 
 ### Setup the following as per the requirement
 
+```sh
 ✔ Project name: … <your-project-name>
 ✔ Add TypeScript? … No / Yes
 ✔ Add JSX Support? … No / Yes
@@ -46,3 +47,4 @@ npm create vue@latest
 ✔ Add ESLint for code quality? … No / Yes
 ✔ Add Prettier for code formatting? … No / Yes
 ✔ Add Vue DevTools 7 extension for debugging? (experimental) … No / Yes
+```
