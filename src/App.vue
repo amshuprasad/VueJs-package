@@ -29,7 +29,7 @@ const items = ref([
       <Menubar :model="items">
         <template #start>
           <RouterLink to="/home">
-            <img src="https://vuejs.org/images/logo.png" alt="Vue.js Logo" class="menubar-logo" />
+            <img src="https://www.smartsocs.com/wp-content/uploads/2021/09/logo_with_black_text.png" alt="SmartSoc Solutions Logo" class="menubar-logo" />
           </RouterLink>
         </template>
         <template #item="{ item }">
@@ -43,12 +43,12 @@ const items = ref([
     </div>
     <RouterView />
     <footer class="footer">
-      <p>© 2024 Your Company Name. All rights reserved.</p>
+      <p>© 2024 SmartSoc Solutions. All rights reserved.</p>
     </footer>
   </div>
 </template>
 
-<style scoped>
+<!-- <style scoped> -->
 /* General layout */
 .page-container {
   display: flex;
@@ -109,5 +109,82 @@ footer p {
   font-size: 0.9rem;
   color: #6c757d;
 }
-</style>
+<!-- </style> -->
 
+
+<style scoped>
+/* General layout */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Menubar styles */
+.menubar-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.menubar-container .p-menubar {
+  width: 100%;
+  border-radius: 0;
+  background-color: #dcf5e9;
+  /* Beige background color for Menubar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+}
+
+/* Logo styling */
+.menubar-logo {
+  height: 30px;
+  width: auto;
+  margin-right: 1rem;
+}
+
+/* Menu item styling */
+.p-menubar .p-menuitem {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Beige color for menu items */
+.p-menubar .p-menuitem-link {
+  color: #5f4b3a;
+  /* Dark brownish color for text */
+  padding: 10px;
+}
+
+/* Hover effect on Menubar items */
+.p-menubar .p-menuitem:hover {
+  background-color: #d2b48c;
+  /* Light tan color on hover */
+  color: white;
+}
+
+.p-menubar .p-menuitem-link {
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+/* Add focus effect for accessibility */
+.p-menubar .p-menuitem-link:focus {
+  background-color: #c0976c;
+  /* Darker tan color for focus */
+  color: white;
+}
+
+/* Footer styles */
+.footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-top: 1px solid #eaeaea;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+}</style>
