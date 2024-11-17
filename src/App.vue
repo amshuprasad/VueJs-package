@@ -39,11 +39,6 @@ const items = ref([
           </Menubar>
       </div>
   <RouterView />
-      <!-- <div>
-          <footer  class="text-center">
-                  <p>&copy; 2024 SmartSoc. All rights reserved.</p>
-          </footer>
-      </div> -->
 </template>
 
 <style scoped>
