@@ -48,3 +48,22 @@ npm create vue@latest
 ✔ Add Prettier for code formatting? … No / Yes
 ✔ Add Vue DevTools 7 extension for debugging? (experimental) … No / Yes
 ```
+
+### Go to your current project
+
+```sh
+cd <your-project-name>
+```
+
+### Install dependencies 
+
+```sh
+npm install
+```
+
+### The Project is Setup successfully, now run the command
+
+```sh
+npm run dev
+```
+
