@@ -12,6 +12,8 @@
                             <div class="flex grid p-fluid p-component">
                                 <div class="col-12 w-full justify-content-center">
                                     <label for="numbersInput">Enter comma-separated values: </label>
+                                    <br>
+                                    <br>
                                     <InputText id="numbersInput" v-model="inputValues" placeholder="e.g., 5, 3, 8, 1">
                                     </InputText>
                                 </div>
