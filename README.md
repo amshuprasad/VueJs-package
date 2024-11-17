@@ -22,6 +22,12 @@ npm install
 npm run dev
 ```
 
+### Create a Vue Project using the command
+
+```sh
+npm create vue@latest
+```
+
 ### Compile and Minify for Production
 
 ```sh
